@@ -1,0 +1,12 @@
+{
+    "populationSize": 3,
+
+    "generationNum": 10,
+
+    "tournProportion": 0.1,
+
+    "rate": {
+        "cross": 0.8,
+        "mutate": 0.02
+    }
+}
