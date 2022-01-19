@@ -3,6 +3,7 @@
 [![Python](badges/Python.svg)](https://www.python.org)
 ![LaTeX](badges/LaTeX.svg)
 ![License](badges/License-MIT.svg)
+[![DOI](https://zenodo.org/badge/438062706.svg)](https://zenodo.org/badge/latestdoi/438062706)
 
 ## Introduction
 
@@ -49,6 +50,21 @@ In a crossover operation, we executed ordered crossover on two parents to produc
 We use tournament selection, keeping transportation plans with the highest fitness from randomly chosen candidates.
 
 The fitness is the cost of a transportation plan. For overloaded plans, a large value is added to fitness as a penalty. This value increases as overload weight increases.
+
+## Citing
+
+```tex
+@software{chenzs108_2022_5878701,
+    author      = {Chen Zhenshuo and Liu Guowen},
+    title       = {Zhuagenborn/Huawei-Delivery-Optimization: v1.0.0},
+    month       = jan,
+    year        = 2022,
+    publisher   = {Zenodo},
+    version     = {v1.0.0},
+    doi         = {10.5281/zenodo.5878701},
+    url         = {https://doi.org/10.5281/zenodo.5878701}
+}
+```
 
 ## License
 
